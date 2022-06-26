@@ -1,0 +1,34 @@
+.img-small {
+    width: 80px;
+    height: 80px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-table {
+    border-collapse: separate;
+ border-spacing: 10px 6px;
+ table-layout: fixed;
+}
+
+td {
+    vertical-align: middle;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+  
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+  
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.round {
+    border-radius: 20%;
+}
