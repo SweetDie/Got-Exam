@@ -140,6 +140,13 @@ class CharactersManager {
             document.getElementById("btnNext").disabled = false;
         }
 
+        if(this.startId <= 0) {
+            document.getElementById("btnPrevious").disabled = true;
+        }
+        else {
+            document.getElementById("btnNext").disabled = false;
+        }
+
         const tableBody = document.getElementById("tableBody");
         for (let i = this.startId; i < count; i++) {
             const tr = document.createElement("tr");
